@@ -11,12 +11,19 @@
       src="https://kit.fontawesome.com/2d2db271b5.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link rel="icon" href="./img/logo.png" />
   </head>
   <header class="lambo">
     <h1 class="titulo">Lamborghini</h1>
   </header>
   <body>
+    <div class="loader"></div>
+    <script type="text/javascript">
+      $(window).load(function() {
+          $(".loader").fadeOut("slow");
+      });
+      </script>
     <div>
       <h1 class="model">Lamborghini</h1>
       <nav>
