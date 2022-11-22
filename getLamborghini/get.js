@@ -4,7 +4,7 @@ const button$$ = document.querySelector("button");
 
 
 const peticion = () => {
-    fetch("https://lamborghini-ferrari-api.vercel.app/cars/name/" + select$$.value)
+    fetch("https://lamborghini-ferrari-api.vercel.app/lamborghini/name/" + select$$.value)
       .then((res) => res.json())
       .then((car) => lamborghiniPintar(car));
 };
