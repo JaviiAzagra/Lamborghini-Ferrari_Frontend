@@ -2,7 +2,7 @@ const cars$$ = document.querySelector(".cars");
 const ferraris$$ = document.querySelector(".ferraris");
 
 const peticion = () => {
-  fetch("https://lamborghini-ferrari-api.vercel.app/cars")
+  fetch("https://lamborghini-ferrari-api.vercel.app/lamborghini")
   /* fetch("http://localhost:3000/cars") */
     .then((res) => res.json())
     .then((cars) => pintar(cars));
