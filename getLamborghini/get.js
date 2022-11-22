@@ -10,7 +10,7 @@ const peticion = () => {
 };
 
 const getCars = () => {
-  fetch("https://lamborghini-ferrari-api.vercel.app/cars")
+  fetch("https://lamborghini-ferrari-api.vercel.app/lamborghini")
     .then((res) => res.json())
     .then((cars) => rellenarSelect(cars));
 };
